@@ -7,7 +7,6 @@ Below is an overview of the code, the steps to run it, the libraries and technol
 Table of Contents
   - Overview
   - Technologies and Libraries Used
-  - Project Structure
   - How to Run
   - Detailed Code Explanation
       1. Imports and Installs
@@ -42,28 +41,6 @@ TQDM: For progress bars during training and evaluation.
 Numpy: For general numeric computations.
 Pillow: For image loading and manipulation.
 SentencePiece: Tokenization backend for the Donut model.
-
-# Project Structure
-Although the code here is presented in a single notebook/script format, conceptually it can be broken into:
-.
-├── data/
-│   ├── train/
-│   │   ├── images/
-│   │   └── annotations/
-│   ├── val/
-│   │   ├── images/
-│   │   └── annotations/
-│   └── test/
-│       ├── images/
-│       └── annotations/
-├── splits/
-│   ├── train.txt
-│   ├── val.txt
-│   └── test.txt
-├── donut_trained_model/  # Checkpoints and best model are saved here
-├── final_donut2/         # Final model and processor
-└── ocr.ipynb         # The main script containing all the code blocks
-Note: Adjust paths as necessary for your environment.
 
 # How to Run
 1. Clone this repository
