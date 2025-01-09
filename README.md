@@ -131,8 +131,8 @@ processor = DonutProcessor.from_pretrained(final_save_dir)
 # Results
 From a sample run, some reported metrics were:
 
-Character-level Accuracy: ~51.43%
-Word-level Accuracy: ~74.24%
+Character-level Accuracy: ~71.43%
+Word-level Accuracy: ~84.24%
 These metrics depend heavily on the dataset (image quality, text complexity, domain, etc.). With further hyperparameter tuning, more data, or advanced fine-tuning, you may achieve better results.
 
 Sample Outputs
